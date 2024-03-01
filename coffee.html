@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Coffee Questionnaire</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Styles/harry.css">
+
+<!-- 	<style type="text/css">
+		.form_container{
+			background-image: url("Assets\\Images\\coffee.webp");
+			margin-right: 300px;
+			margin-left: 300px;
+		}
+		table,th,td{
+			text-align: "center";
+		}
+	</style> -->
+</head>
+<body>
+	<a href="index.html"><img src="Assets\Images\home.png" width=50 height=50 alt="Takes you home" /></a>
+	<div class=form_container>
+	<h1><b>Coffee Shop Questionnaire</b></h1><hr>	
+
+	<form>
+		<h4> 1) What products do you sell? </h4>
+		<table >
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Hot Drinks</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">Biscuits</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Paninis / Wraps</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Cold Drinks</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">Cakes</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Salad</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Sandwiches</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">Hot Food</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Other:</label>
+				<input type="text" id="id_sname" name="sname" required>
+				</td>
+			</tr>
+		</table>
+		<h4> 2) Do you offer a take-out service? </h4>
+		<input type="radio" id="takeout" name="takeout" value="takeout">
+		<label for="takeout">Yes</label>
+		<input type="radio" id="takeout" name="takeout" value="takeout">
+		<label for="takeout">No</label>
+		<h4> 3) Do you offer Wi-fi? </h4>
+		<input type="radio" id="wifi" name="wifi" value="wifi">
+		<label for="wifi" id="wifi">Yes</label>
+		<input type="radio" id="wifi" name="wifi" value="wifi">
+		<label for="wifi" id="wifi">No</label>
+		<h4> 4) Who Would you say is your target audience? </h4>
+		<table>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Students</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">Children</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Business Persons</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Families</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">OAP's</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Skilled Labourers</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Parents</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">Tourists</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="pw" name="pw" value="pw">
+				<label for="hdrink">Other:</label>
+				<input type="text" id="id_sname" name="sname" required> 
+				</td>
+			</tr>
+		</table>
+		<h4> 5) What is your targeted age group? </h4>
+		<table text-align=center>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">Under 18</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">40 - 60</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">18 -24</label>
+				</td>
+				<td>	
+				<input type="checkbox" id="Biscuits" name="Biscuits" value="Biscuits">
+				<label for="hdrink">60+</label>
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				<input type="checkbox" id="hdrink" name="hdrink" value="hdrink">
+				<label for="hdrink">25 -40</label>
+				</td>
+			</tr>
+		</table>
+		<h4> 6) What would you say is the most popular beverage you sell? </h4>
+		<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+		<h4> 7) What would you say is the most popular food you sell? </h4>
+		<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+
+
+	</form>
+	</div>
+</body>
+</html>

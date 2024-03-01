@@ -1,0 +1,20 @@
+
+  thead{
+    background-color: lightcoral;
+  }
+  tbody{
+    background-color: coral;
+  }
+  body{
+    background-color: skyblue;
+    font-family: "Georgia";
+  }
+	table, th, td {
+		border: 1px solid black;
+		width: 30%;
+		text-align: center;
+    margin:auto;
+	}
+  h1{
+    text-align: center;
+  }

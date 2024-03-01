@@ -1,0 +1,11 @@
+.form_container{
+	background-image: url("..\\Images\\coffee.webp");
+	margin-right: 300px;
+	margin-left: 300px;
+}
+table,th,td{
+	text-align: "center";
+}
+#wifi{
+	font-family: "Lucida Console", "Courier New", monospace;
+}
